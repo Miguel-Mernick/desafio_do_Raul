@@ -1,0 +1,89 @@
+/* Definindo o fundo da página com um GIF sem texto */
+body {
+    font-family: Arial, sans-serif;
+    background: url('https://i.pinimg.com/originals/43/09/5d/43095d47a22412b49903d93ed4745f6f.gif') no-repeat center center fixed; /* GIF engraçado de fundo */
+    background-size: cover; /* A imagem vai cobrir toda a tela */
+    margin: 0;
+    padding: 0;
+    color: white; /* Texto branco para contrastar com o fundo */
+}
+
+/* Container com fundo opaco para garantir legibilidade */
+.container {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fundo branco semitransparente */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+/* Estilo para o título */
+h1 {
+    text-align: center;
+    color: #FFD700; /* Amarelo */
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+/* Estilo para a tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #0099CC; /* Azul claro */
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #FFD700; /* Amarelo para os cabeçalhos */
+    color: white;
+}
+
+td {
+    background-color: #fff; /* Fundo branco para as células */
+    color: #333; /* Texto escuro */
+}
+
+/* Links de ação (editar e excluir) */
+a.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    text-decoration: none;
+    background-color: #0099CC; /* Azul */
+    color: #fff;
+    border-radius: 5px;
+}
+
+a.btn:hover {
+    background-color: #007B8F; /* Azul mais escuro no hover */
+}
+
+/* Botão de excluir */
+a.delete {
+    background-color: #FF6347; /* Vermelho tomate para o botão de excluir */
+}
+
+a.delete:hover {
+    background-color: #FF4500; /* Tomate mais escuro no hover */
+}
+
+/* Botão de adicionar novo usuário */
+a.btn:hover {
+    background-color: #007B8F;
+}
+
+/* Estilo para a tabela quando não houver registros */
+td[colspan="4"] {
+    text-align: center;
+    color: #FFD700; /* Amarelo para a mensagem */
+    font-weight: bold;
+}
